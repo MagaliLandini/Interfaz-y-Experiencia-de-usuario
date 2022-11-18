@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700|Roboto+Slab:400,700|Roboto:400,500,700,900&display=swap');
+body {
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    margin: 0 auto;
+    padding: 0;
+    background: linear-gradient(45deg, black, transparent);
+    max-width: 1349px;
+
+
+    
+}
+
+a {
+    text-decoration: none;
+    display: inline;
+    color: black;
+}
+@media(max-width:390px){
+    .grid-container{
+        max-width: 980px;
+        margin: auto;
+    }
+}
+header {
+    width: 100%;
+    height: 140px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    position: fixed;
+    top: 0;
+}
+
+header .header-icons-container {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    background-color: slategray;
+    justify-content: space-between;
+    align-items: baseline;
+}
+header.h1{
+    width: max-content;
+
+}
+header .header-icons-container .icons {
+    width: 300px;
+    height: auto;
+    display: flex;
+    justify-items: flex-end;
+    align-items: center;
+    justify-self: end;
+    margin-right: 50px;
+   
+
+}
+header .header-icons-container img{
+width: 30px;
+} 
+.main{
+    margin-top: 60px;
+}
+ .main h1{
+    text-align: center;
+ }
+
+ .main_div{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+ }
+ .main_div p{
+    text-align: -webkit-center;
+ 
+ }
+ .main_div a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid slategray;
+    width: 150px;
+    margin: 0 auto;
+ 
+    
+ }
+ .main_div img{
+    width: 650px;
+ }
+
+footer {
+    width:100%;
+    height: 80px;
+    background-color: slategray;
+   /* border-top:35px solid #47cfac;*/
+    text-align:center;
+}
+footer .contacto{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer .contacto span{
+    display: flex;
+    align-items: center;
+}
+footer img{
+    width: 30px;
+    
+}
+.experiencia_laboral{
+    display: grid;
+    grid-template-columns: max-content auto;
+    align-items: center;
+}
+.experiencia_laboral h1{
+    text-align: center;
+    border-bottom: 1px solid gray;
+    
+}
+.experiencia_laboral .div_texto .div_detalles{
+    text-align: center;
+}
+
+.experiencia_laboral img{
+    width: 400px;
+
+}
+.estudios{
+    display: grid;
+    grid-template-columns: max-content auto;
+    align-items: center;
+    text-align: center;
+}
+
+.estudios .titulo {
+    text-align: center;
+    border-bottom: 1px solid gray;
+}
+.estudios img{
+    width: 400px;
+}
+
+.cursos h1{
+    text-align: center;
+    border-bottom: 1px solid gray;
+}
